@@ -1,17 +1,4 @@
-# 🗂️ FileFlow Automator
-
-![Demo](docs/demo.gif)
-
-Organizador automático de archivos con:
-- 📂 Clasificación por categorías
-- 🔍 Detección de duplicados por contenido
-- 📊 Generación de reportes en Excel
-
-## 🛠️ Dependencias
-
-```bash
-# Instalar dependencias principales (obligatorias)
-pip install pandas==2.1.4 openpyxl==3.1.2 watchdog==3.0.0
-
-# O instalar desde requirements.txt
-pip install -r requirements.txt
+# Dependencias principales
+pandas==2.1.4
+openpyxl==3.1.2
+watchdog==3.0.0
