@@ -2,15 +2,14 @@
 
 ![Demo](docs/demo.gif)
 
-Organizador automático de archivos con:
-- Clasificación inteligente
-- Detección de duplicados
-- Reportes en Excel
+Organizador automático de archivos con GUI para clasificar documentos, imágenes y audios.
 
-## 🚀 Cómo Usar
+## ⚙️ Requisitos
+- Python 3.10+
+- Solo Windows/macOS/Linux
+
+## 🚀 Instalación rápida
+1. Clona el repositorio:
 ```bash
-# Instalar dependencias
-pip install -r requirements.txt
-
-# Ejecutar
-python main.py
+git clone https://github.com/kali1939/FileFlow-Automator.git
+cd FileFlow-Automator
