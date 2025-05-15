@@ -1,11 +1,17 @@
-# 📂 requirements.txt
-# Dependencias principales
-pandas==2.1.4          # Para generación de reportes Excel
-openpyxl==3.1.2        # Soporte para .xlsx
-watchdog==3.0.0        # Monitoreo de archivos
+# 🗂️ FileFlow Automator
 
-# Dependencias de desarrollo (opcionales)
-black==23.9.1          # Formateador de código
-pylint==2.17.5         # Linter para calidad de código
+![Demo](docs/demo.gif)
 
-# Nota: Tkinter viene incluido en Python (no necesita instalación)
+Organizador automático de archivos con:
+- 📂 Clasificación por categorías
+- 🔍 Detección de duplicados por contenido
+- 📊 Generación de reportes en Excel
+
+## 🛠️ Dependencias
+
+```bash
+# Instalar dependencias principales (obligatorias)
+pip install pandas==2.1.4 openpyxl==3.1.2 watchdog==3.0.0
+
+# O instalar desde requirements.txt
+pip install -r requirements.txt
