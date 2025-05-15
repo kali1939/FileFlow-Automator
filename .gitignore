@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+
+# Ejecutables
+dist/
+build/
+*.spec
+
+# Datos y logs
+*.log
+reportes/
